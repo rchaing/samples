@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\samples.dll" total="1" errors="0" failures="1" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2015-02-25" time="14:54:13">
+  <environment nunit-version="2.6.1.12217" clr-version="2.0.50727.5472" os-version="Microsoft Windows NT 6.1.7601 Service Pack 1" platform="Win32NT" cwd="C:\Program Files (x86)\NUnit 2.6.1\bin" machine-name="USLT1812" user="rchaing" user-domain="NDSHQ" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\samples.dll" executed="True" result="Failure" success="False" time="182.733" asserts="0">
+    <results>
+      <test-suite type="Namespace" name="Appium" executed="True" result="Failure" success="False" time="182.708" asserts="0">
+        <results>
+          <test-suite type="Namespace" name="Samples" executed="True" result="Failure" success="False" time="182.707" asserts="0">
+            <results>
+              <test-suite type="TestFixture" name="AndroidConnectionTest" executed="True" result="Error" success="False" time="182.701" asserts="0">
+                <failure>
+                  <message><![CDATA[SetUp : OpenQA.Selenium.WebDriverException : The HTTP request to the remote WebDriver server for URL http://127.0.0.1:4723/wd/hub/session timed out after 180 seconds.
+  ----> System.Net.WebException : The operation has timed out]]></message>
+                  <stack-trace><![CDATA[at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:line 152
+at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 910
+at OpenQA.Selenium.Remote.RemoteWebDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\RemoteWebDriver.cs:line 88
+at OpenQA.Selenium.Appium.AppiumDriver..ctor(ICommandExecutor commandExecutor, ICapabilities desiredCapabilities) in C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\appium-dotnet-driver\Appium\AppiumDriver.cs:line 81
+at OpenQA.Selenium.Appium.AppiumDriver..ctor(Uri remoteAddress, ICapabilities desiredCapabilities, TimeSpan commandTimeout) in C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\appium-dotnet-driver\Appium\AppiumDriver.cs:line 114
+at OpenQA.Selenium.Appium.Android.AndroidDriver..ctor(Uri remoteAddress, DesiredCapabilities desiredCapabilities, TimeSpan commandTimeout) in C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\appium-dotnet-driver\Appium\Android\AndroidDriver.cs:line 54
+at Appium.Samples.AndroidConnectionTest.BeforeAll() in C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\AndroidConnectionTest.cs:line 35
+--WebException
+at System.Net.HttpWebRequest.GetResponse()
+at OpenQA.Selenium.Remote.HttpCommandExecutor.CreateResponse(WebRequest request) in c:\Projects\webdriver\dotnet\src\webdriver\Remote\HttpCommandExecutor.cs:line 142
+]]></stack-trace>
+                </failure>
+                <results>
+                  <test-case name="Appium.Samples.AndroidConnectionTest.ConnectionTest" executed="True" result="Failure" success="False" time="0.000" asserts="0">
+                    <failure>
+                      <message><![CDATA[TestFixtureSetUp failed in AndroidConnectionTest]]></message>
+                      <stack-trace />
+                    </failure>
+                  </test-case>
+                </results>
+              </test-suite>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

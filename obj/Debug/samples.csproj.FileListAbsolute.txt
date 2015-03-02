@@ -1,0 +1,14 @@
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\samples.dll
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\samples.pdb
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\appium-dotnet-driver.dll
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\nunit.framework.dll
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\WebDriver.dll
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\appium-dotnet-driver.pdb
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\nunit.framework.xml
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\Newtonsoft.Json.xml
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\WebDriver.pdb
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\bin\Debug\WebDriver.xml
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\obj\Debug\samples.csprojResolveAssemblyReference.cache
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\obj\Debug\samples.dll
+C:\Users\rchaing\Desktop\ProductK\Appium\AppiumDotNetDriver\appium-dotnet-driver-master\samples\obj\Debug\samples.pdb
